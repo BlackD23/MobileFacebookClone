@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(460deg,#d8d5d5, rgb(221, 221, 221));
+}
+.container {
+    margin: 100px 0px;
+}
+.container .col {
+    max-width: 380px;
+    margin: auto;
+}
+.container .col .set{
+    margin: auto;
+    padding: 0;
+}
+.container .col .set h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+.container .col .set p {
+    color: #333;
+    font-size: 19px;
+    font-weight: 650;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    width: 350px;
+}
+.container .col .form {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #fff;
+    cursor: pointer;
+}
+.container .col .form input {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgb(116, 116, 116);
+    padding-left: 10px;
+}
+.container .col .form .button {
+    background-color: blue;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    font-weight: 545;
+    cursor: pointer;
+}
+.container .col .form h4 {
+    color: rgb(57, 57, 170);
+    text-align: center;
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.container .col .form button {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(39, 211, 39);
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 20px;
+    margin-left: 110px;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+@media screen and (max-width: 342px) and (min-width: 100px) {
+    .container .col .form {
+        width: 360px;
+    }
+    
+}
+@media screen and (max-width: 300px) and (min-width: 0px){
+
+    .container .col .set h1 {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 198px) {
+    .container .col .form {
+        width: 360px;
+    }
+    
+}
